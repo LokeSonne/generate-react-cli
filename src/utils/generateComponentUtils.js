@@ -356,6 +356,8 @@ function generateComponent(componentName, cmd, cliConfigFile) {
       } else {
         try {
           outputFileSync(componentPath, template);
+          
+          console.log(componentName);
 
           replace({
             regex: 'TemplateName',
