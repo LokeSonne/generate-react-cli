@@ -391,7 +391,7 @@ function generateComponent(componentName, cmd, cliConfigFile) {
             silent: true,
           });
 
-          console.log(chalk.green(`${filename} was successfully created at ${componentPath}`));
+          console.log(chalk.green(`${filename} was successfully test created at ${componentPath}`));
         } catch (error) {
           console.error(chalk.red(`${filename} failed and was not created.`));
           console.error(error);
